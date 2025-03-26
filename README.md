@@ -1,4 +1,4 @@
-# CIS-12, Chapters 10 & 11 Exercises
+# CIS-12, Chapter 10 & 11 Exercises
 
 <h2>Exercise 10.11.2</h2>
 
