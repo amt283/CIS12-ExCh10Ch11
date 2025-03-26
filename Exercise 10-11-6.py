@@ -18,6 +18,7 @@ def is_interlocking(word):
     return False
 
 #Checks whether string is a word in English
+# Found here: https://dnmtechs.com/checking-if-a-word-is-english-in-python-3/
 def is_english(word):
     english_words = set(nltk.corpus.words.words())
     return word.lower() in english_words
