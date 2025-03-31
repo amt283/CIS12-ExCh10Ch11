@@ -11,10 +11,22 @@ if anything went over the value of 1, so instead of two loops there'd only be on
 version is a bit more efficient.
 
 <h2>Exercise 10.11.4</h2>
+My version and the instructor's are the same, more or less.
 
 <h2>Exercise 10.11.5</h2>
+For this one, I almost matched the instructor's code - though I didn't realize (until too late) that my version is 
+adding like-keys together and ignoring any keys that only appear in one list. To improve my code, I'd essentially just 
+have to change my add_counters() function to match the instructor's version instead.
 
 <h2>Exercise 10.11.6</h2>
+My version and the instructor's are the same, more or less, though they differ in that I didn't realize that the 
+exercise wanted us to use the wordlist (but I can see it now after reviewing the exercise) so I used some hardcoded 
+words. That and I got a little carried away with the exercise and decided to add some functionality to check whether 
+the word is an actual English word (and it's spelled correctly) before checking to see if it's an interlocking word. 
+That was mostly for fun and because I figured that if you scrambled a bunch of letters together you could trick the 
+program into believing the "word" was interlocking and the only way to get around that would be to verify the word 
+itself - a feature Python doesn't have, surprisingly! It took some time and some trial and error to find a module that 
+worked/is still supported before I finally stumbled on nltk.
 
 <h2>Exercise 11.11.2</h2>
 
