@@ -18,7 +18,7 @@ def shift_word(str_var, shift_int):
 
     caesar_word = []
 
-    # Loop through string and shift the letter based on the shift_int
+    # Loop through letters in str_var and shift the letter based on the shift_int
     # % 26 used to loop back to 'a' when 'z' is reached
     for letter in str_var:
         new_index = (letter_map[letter] + shift_int) % 26
