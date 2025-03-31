@@ -16,10 +16,9 @@ def word_distance(word1, word2):
         for first, second in zip(word1, word2):
             if first != second:
                 count += 1
+        return count
     else:
         return f"\"{word1.capitalize()}\" and \"{word2.capitalize()}\" are not the same length!"
-
-    return count
 
 if __name__ == "__main__":
     main()
