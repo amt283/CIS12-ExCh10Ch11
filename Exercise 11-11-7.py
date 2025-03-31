@@ -7,5 +7,8 @@ Hint: The words in a metathesis pair must be anagrams of each other."""
 def main():
     pass
 
+def metathesis(word_list):
+    pass
+
 if __name__ == "__main__":
     main()
