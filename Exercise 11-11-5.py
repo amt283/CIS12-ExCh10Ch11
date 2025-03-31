@@ -14,5 +14,8 @@ from this sorted string to a list of words that are anagrams of it."""
 def main():
     pass
 
+def anagram_words(word_list):
+    pass
+
 if __name__ == "__main__":
     main()
