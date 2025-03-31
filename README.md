@@ -31,7 +31,9 @@ worked/is still supported before I finally stumbled on nltk.
 <h2>Exercise 11.11.2</h2>
 My version and the instructor's are the same, more or less, though I made a separate list with just one element (6) 
 and then concatenated it with list1 a new tuple. I did this because I tried to append the number 6 as: 
-<i><b>t = t[1].append(6)</i></b> and got an error message that tuples are not mutable, which led me to believe that 
+<i><b>t = t[1].append(6)</i></b> 
+
+This gave me an error message that tuples are not mutable, which led me to believe that 
 concatenation was the only way to do it, and it'd need a new tuple. Understandably, I think the instructor's version is 
 much more efficient considering it doesn't use as many lines as mine does. To improve my code, I'd just have to remove 
 the unneeded extra list, remove the extra tuple and append directly to list1 instead.
