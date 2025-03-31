@@ -5,7 +5,7 @@ pairs in the word list.
 Hint: The words in a metathesis pair must be anagrams of each other."""
 
 def main():
-    pass
+    wordlist = 'wordlist.txt'
 
 def metathesis(word_list):
     pass

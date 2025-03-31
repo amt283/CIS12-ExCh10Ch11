@@ -12,7 +12,7 @@ Hint: For each word in the word list, sort the letters and join them back into a
 from this sorted string to a list of words that are anagrams of it."""
 
 def main():
-    pass
+    wordlist = 'wordlist.txt'
 
 def anagram_words(word_list):
     pass
