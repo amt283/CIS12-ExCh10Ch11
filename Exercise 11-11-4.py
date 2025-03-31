@@ -5,7 +5,7 @@ To get the items in decreasing order, you can use reversed along with sorted or 
 parameter to sorted."""
 
 def main():
-    print(most_frequent_letters('mississippi'))
+    most_frequent_letters('mississippi')
 
 def value_counts(string):
     counter = {}
@@ -18,7 +18,13 @@ def value_counts(string):
 
 def most_frequent_letters(str_var):
     counts = value_counts(str_var)
-    return list(reversed(sorted(counts)))
+
+    # Sort the letters based on frequency in decreasing order
+    sorted_letters = sorted(counts.items(), key=lambda item: item[1], reverse=True)
+
+    # Print the letters in order of decreasing frequency
+    for letter, count in sorted_letters:
+        print(f"Letter: {letter}, Count: {count}")
 
 if __name__ == "__main__":
     main()
